@@ -14,6 +14,7 @@
         "vue": "^3.2.45"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^1.0.0"
+        "@inertiajs/vue3": "^1.0.0",
+        "eslint": "^8.32.0"
     }
 }
