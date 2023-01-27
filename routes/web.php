@@ -14,9 +14,11 @@ use App\Http\Controllers\EmployeeController;
 |
 */
 
+Route::get('/', [EmployeeController::class, 'dashboard'])->name('employee');
+
 //Employee Sub Module Routes
 
-Route::get('/employee/', [EmployeeController::class, 'dashboard']);
-Route::get('/employee/details', [EmployeeController::class, 'details']);
-Route::get('/employee/contract', [EmployeeController::class, 'contract']);
-Route::get('/employee/add', [EmployeeController::class, 'add']);
+Route::get('/employee/', [EmployeeController::class, 'dashboard'])->name('employee');
+Route::get('/employee/details', [EmployeeController::class, 'details'])->name('employee.details');
+Route::get('/employee/contracts', [EmployeeController::class, 'contract'])->name('employee.contracts');
+Route::get('/employee/management', [EmployeeController::class, 'add'])->name('employee.management');

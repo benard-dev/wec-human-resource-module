@@ -12,5 +12,7 @@
 
 <template>
     <NavigationBarComponent></NavigationBarComponent>
-    <slot></slot>
+    <main class="container mx-auto px-32 pt-8">
+        <slot></slot>
+    </main>
 </template>

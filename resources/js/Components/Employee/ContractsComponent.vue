@@ -38,7 +38,7 @@
                 <td>Finance Intern</td>
             </tr>
         </table>
-        <button>
+        <button class="bg-wec-blue hover:bg-wec-light-blue font-medium text-white p-2 rounded-md">
             View Full Employee Contracts
         </button>
     </div>

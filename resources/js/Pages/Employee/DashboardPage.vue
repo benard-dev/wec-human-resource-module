@@ -18,7 +18,7 @@
 
 <template>    
     <EmployeeLayout>
-        <h1>Employee Dashboard</h1>  
+        <h1 class="text-center m-4 text-lg font-medium">Employee Dashboard</h1>  
         <ProfilePictureComponent></ProfilePictureComponent>
         <DetailsComponent></DetailsComponent>
         <ManagementComponent></ManagementComponent>
